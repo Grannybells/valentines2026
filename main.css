@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    height: 100vh;
+    overflow: hidden; /* prevents scrolling */
+}
+
+p {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+
+    background: url(image.jpg) no-repeat center;
+    background-size: contain;
+    letter-spacing: 1px;  /* increase as needed */
+    background-attachment: fixed;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
